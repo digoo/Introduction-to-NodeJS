@@ -11,6 +11,9 @@ create a CRUD (Create, read, update(put) and delete)
 
 Create middlewares with use function
 
+- using default middleware (server.use(function() or command))
+- using middleware as parameter of a method
+
 JSON as default protocol
 
 route > route params > query params
