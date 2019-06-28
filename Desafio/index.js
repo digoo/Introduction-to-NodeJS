@@ -122,7 +122,7 @@ function checkProjectExists(req, res, next) {
 function logRequests(req, res, next) {
   numberOfRequests++;
 
-  console.log(`Número de requisições: ${numberOfRequests}`);
+  console.log(`Requisition number: ${numberOfRequests}`);
 
   return next();
 }
